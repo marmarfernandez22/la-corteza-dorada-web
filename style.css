@@ -1,6 +1,6 @@
 /*
 Theme Name: La Corteza Dorada
-Author: Marisa
+Author: Marisa, con asistencia de IA
 Description: Web de práctica con Inicio, Servicios y Contacto. Al activar crea las páginas que falten sin sustituir contenido existente.
 Version: 1.0.0
 Requires at least: 6.0
@@ -12,3 +12,7 @@ Text Domain: la-queseria
 
 /* Fotografías reales: encuadres estables en ordenador y móvil. */
 .hero img{width:100%;height:540px;object-fit:cover;object-position:center}.service img{height:400px;object-fit:cover}.card img{object-position:center}@media(max-width:800px){.hero img{height:420px}.service img{height:354px}}
+
+/* Revisión de legibilidad, espacios y contacto - noviembre 2026. */
+:root{--muted:#405044}html{scroll-behavior:smooth}.hero{padding:36px 0 24px;gap:44px}.hero>p{margin:0}.hero img{height:480px}.hero .note{font-size:15px;line-height:1.6;margin-top:18px}.section{padding:40px 0}.section-intro{margin-bottom:24px}.eyebrow,.tag,.service .number{font-size:14px;letter-spacing:1.4px}.ribbon{font-size:14px;letter-spacing:1px;padding:14px 0}.small,.pending,.site-footer p,.footer-nav{font-size:15px;line-height:1.65}.card p{font-size:17px}.button,nav a{font-size:16px}.site-footer{margin-top:40px}.band .eyebrow{color:#f7f3e9}.page-title{padding:40px 0 20px}.demo-notice{padding:20px;background:var(--soft);border-left:4px solid #815f20;margin-bottom:24px}.demo-notice p{margin:8px 0 0;font-size:16px}form label{display:block;font-weight:bold;margin:18px 0 8px}form input,form select,form textarea{display:block;width:100%;border:1px solid #596557;border-radius:3px;padding:12px;background:#fffdf7;color:var(--ink);font:inherit}form input:focus,form select:focus,form textarea:focus{outline:3px solid #815f20;outline-offset:2px}form button{margin-top:20px;cursor:pointer}.form-status{margin-top:18px;font-size:16px}.contact-grid{gap:45px}.contact-panel{align-self:start}.contact-grid>div{min-width:0}
+@media(max-width:800px){.hero{padding:28px 0 22px;gap:24px}.hero img{height:330px}.section{padding:30px 0}.ribbon{font-size:13px;gap:12px}.service .number{font-size:14px}.hours{font-size:16px}.page-title{padding-top:28px}.contact-grid{padding-bottom:30px}.band{padding:26px}.eyebrow{font-size:13px}}
